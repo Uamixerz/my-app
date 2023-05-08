@@ -3,3 +3,8 @@ export interface ICategoryCreate {
     image: string,
     description: string
 }
+export interface ICategoryCreateError {
+    name: string,
+    description: string,
+    image: string
+}
